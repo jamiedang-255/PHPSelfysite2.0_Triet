@@ -1,0 +1,45 @@
+html {
+    background: #cccaca99;
+}
+.container h2 {
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: xxx-large;
+}
+hr {
+    background: #ff4553;
+    height: 4px;
+}
+.banner{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_5zVWh1sgbOhS0mN-nBZndjSFZWgbW5e7nQ&usqp=CAU);
+    height: 37vh;
+    position: inherit;
+    background-attachment: fixed;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 14px;
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*Table Breakpoint 780px*/
+@media screen and (max-width: 780px)
+{
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+ /*Table Breakpoint 540px*/
+ @media screen and (max-width: 540px)
+ {
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+ }

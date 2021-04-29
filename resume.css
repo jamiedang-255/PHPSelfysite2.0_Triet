@@ -1,0 +1,71 @@
+.bolder-name{
+    background-color: #ededed;
+    color: rgb(45, 70, 117);
+    font-weight: bolder;
+    border-radius: 12px;
+    padding: 5px;
+}
+.banner{
+    background: url();
+    height: 65vh;
+    position: inherit;
+    background-attachment: fixed;
+    color: white;
+    /*text--*/
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 59px;
+    text-shadow: 1px 2px 15px #ffecec;
+    margin-top: -180px;
+
+}
+
+img.logo {
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -130px;
+    /* border: solid;
+    border-color: #648186; */
+    border-width: 7px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume {
+  
+    FONT-SIZE: 25px;
+}
+.resume {
+    margin: 40px 20%;
+    border: solid 1px white;
+    padding: 10px;
+    box-shadow: 1px 1px 3px grey;
+    background: white;
+    border: solid;
+    border-color: #363333;
+    border-width: 5px;
+}
+
+body {
+    background: #c4bdbda6;
+}
+
+.header a {
+   
+    text-decoration: none;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Acme';
+  
+}
